@@ -1,0 +1,1 @@
+In this scenario you will learn more about developing Eclipse Vert.x applications using the Red Hat OpenShift Application Runtimes platform. 
