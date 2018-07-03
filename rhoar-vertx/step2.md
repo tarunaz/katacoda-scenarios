@@ -5,7 +5,7 @@ For your convenience, this scenario has been created using the OpenShift Launche
 
 **1. Understanding the Application**
 
-The project is a simple Greeting application, where a user inputs a fruit and is greeted by our service. Opening up our ``greeting-service/src/main/java/io/openshift/booster/service/FruitController.java``{{open}} file we can see the logic used to respond to our user. The interesting part of this logic is right here, where we retrieve the message:
+The project is a simple Greeting application, where a user inputs a fruit and is greeted by our service. Opening up our ``quote-generator/src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java``{{open}} file we can see the logic used to respond to our user. The interesting part of this logic is right here, where we retrieve the message:
 
 ```java
 @Override
