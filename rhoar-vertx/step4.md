@@ -1,19 +1,26 @@
-We have already deployed our coolstore monolith, inventory and catalog to OpenShift. In this step we will deploy our new Shopping Cart microservice for our CoolStore application, so let's create a separate project to house it and keep it separate from our monolith and our other microservices.
+Red Hat OpenShift Container Platform is the preferred runtime for the Red Hat OpenShift Application Runtimes like Vert.x. OpenShift Container Platform is based on Kubernetes which is probably the most used Orchestration for containers running in production. OpenShift is currently the only container platform based on Kuberenetes that offers multitenancy. This means that developers can have their own personal, isolated projects to test and verify application before committing to a shared code repository.
 
-1. Create project
+OpenShift also ships with a feature rich web console as well as command line tools to provide users with a friendly interface to work with applications deployed to the platform.
 
-Create a new project for the cart service:
+**1. Login to OpenShift Container Platform**
 
-``oc new-project vertx-demo --display-name="Micro-Trader Application"``{{execute interrupt}}
+To login, we will use the oc command and then specify username and password like this:
 
-3. Open the OpenShift Web Console
+``oc login 2886795299-8443-kitek02.environments.katacoda.com -u developer -p developer --insecure-skip-tls-verify=true``{{execute}}
 
-You should be familiar with the OpenShift Web Console by now! Click on the "OpenShift Console" tab:
+Congratulations, you are now authenticated to the OpenShift server.
 
-OpenShift Console Tab
+**IMPORTANT**: If the above oc login command doesn't seem to do anything, you may have forgotten to stop the application from the previous step. Click on the terminal and press CTRL-C to stop the application and try the above oc login command again!
 
-And navigate to the new catalog project overview page (or use this quick link
+**2. Create project**
 
-Web Console Overview
+Projects are a top-level concept to help you organize your deployments. An OpenShift project allows a community of users (or a user) to organize and manage their content in isolation from other communities. Each project has its own resources, policies (who can or cannot perform actions), and constraints (quotas and limits on resources, etc.). Projects act as a wrapper around all the application services and endpoints you (or your teams) are using for your work.
 
-There's nothing there now, but that's about to change.
+For this scenario, let's create a project that you will use to house your applications.
+
+``oc new-project vertx-demo --display-name="Micro-Trader Application"``{{execute}}
+
+**3. Open the OpenShift Web Console**
+
+OpenShift ships with a web-based console that will allow users to perform various tasks via a browser. To get a feel for how the web console works, click on the "OpenShift Console" tab next to the "Local Web Browser" tab.
+
