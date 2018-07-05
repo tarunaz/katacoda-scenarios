@@ -4,7 +4,7 @@ We have already deployed our coolstore monolith, inventory and catalog to OpenSh
 
 Create a new project for the cart service:
 
-oc new-project vertx-demo --display-name="Micro-Trader Application"{{execute interrupt}}
+oc new-project vertx-demo --display-name="Micro-Trader Application" {{execute interrupt}}
 
 3. Open the OpenShift Web Console
 
