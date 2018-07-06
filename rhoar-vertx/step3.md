@@ -52,7 +52,7 @@ Write the content of the request handler to respond to the request:
 * To write the response use response.end(content).
 * To create the JSON representation of an object, you can use the Json.encode method
 
-<pre class="file" data-filename="./src/main/java/com/redhat/coolstore/CartServiceVerticle.java" data-target="insert" data-marker="//TODO: return quotes">
+<pre class="file" data-filename="src/main/java/io/vertx/workshop/quote/RestQuoteAPIVerticle.java" data-target="insert" data-marker="//TODO: return quotes">
 String company = request.getParam("name");          
 if (company == null) {
     String content = Json.encodePrettily(quotes);   
@@ -78,8 +78,9 @@ You may wonder why synchronization is not required. Indeed we write in the map a
 
 **3. Test our changes**
 
-First, let’s build the microservice fat-jar. In the terminal, execute:
+First, let’s build the microservice. In the terminal, execute:
 
+``cd quote-generator``{{execute}}
 ``mvn compile vertx:run``{{execute}}
 
 This command launches the application. The main class we used creates a clustered Vert.x instance and reads the configuration from src/conf/config.json. This configuration provides the HTTP port on which the REST service is published (35000).

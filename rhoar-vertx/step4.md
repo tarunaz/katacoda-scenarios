@@ -6,7 +6,7 @@ OpenShift also ships with a feature rich web console as well as command line too
 
 To login, we will use the oc command and then specify username and password like this:
 
-``oc login 2886795299-8443-kitek02.environments.katacoda.com -u developer -p developer --insecure-skip-tls-verify=true``{{execute}}
+``oc login https://[[HOST_SUBDOMAIN]]-8443-[[KATACODA_HOST]].environments.katacoda.com -u developer -p developer --insecure-skip-tls-verify=true``{{execute interrupt}}
 
 Congratulations, you are now authenticated to the OpenShift server.
 
@@ -18,7 +18,7 @@ Projects are a top-level concept to help you organize your deployments. An OpenS
 
 For this scenario, let's create a project that you will use to house your applications.
 
-``oc new-project vertx-demo --display-name="Micro-Trader Application"``{{execute}}
+``oc new-project vertx-micro-trader --display-name="Micro-Trader Application"``{{execute interrupt}}
 
 **3. Open the OpenShift Web Console**
 
