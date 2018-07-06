@@ -20,7 +20,7 @@ Implement the logic that retrieve the body of the message (with the body() metho
 Open the file in the editor: ``quote-generator/src/main/java/io/vertx/workshop/quote/RestQuoteAPIVerticle.java``{{open}}
 Then, copy the below content into the file between the ``// ----//``(or use the `Copy to Editor` button):
       
-<pre class="file" data-filename="src/main/java/io/vertx/workshop/quote/RestQuoteAPIVerticle.java" data-target="replace">
+<pre class="file" data-filename="src/main/java/io/vertx/workshop/quote/RestQuoteAPIVerticle.java" data-target="insert" data-marker="//TODO: insert quotes">
 JsonObject quote = message.body(); // 1
 quotes.put(quote.getString("name"), quote); // 2
 </pre>
@@ -32,11 +32,11 @@ First, it retrieves the message body (1). It’s a JSON object, and stores it in
 Now that you did a first Handler, let’s do a second one. This handler does not receive messages from the event bus, but HTTP requests. The handler is attached to a HTTP server and is called every time there is a HTTP request to the server, the handler is called and is responsible for writing the response.
 
 To handle the HTTP requests, we need a HTTP server. Fortunately, Vert.x lets you create HTTP servers using:
-<pre class="file" data-filename="src/main/java/io/vertx/workshop/quote/RestQuoteAPIVerticle.java" data-target="replace">
+```java
 vertx.createHttpServer()
     .requestHandler(request -> {...})
     .listen(port, resultHandler);
-</pre>
+```
 
 Write the content of the request handler to respond to the request:
 
@@ -52,9 +52,7 @@ Write the content of the request handler to respond to the request:
 * To write the response use response.end(content).
 * To create the JSON representation of an object, you can use the Json.encode method
 
-```java
-HttpServerResponse response = request.response()    
-    .putHeader("content-type", "application/json");
+<pre class="file" data-filename="./src/main/java/com/redhat/coolstore/CartServiceVerticle.java" data-target="insert" data-marker="//TODO: return quotes">
 String company = request.getParam("name");          
 if (company == null) {
     String content = Json.encodePrettily(quotes);   
@@ -68,7 +66,7 @@ if (company == null) {
       response.end(quote.encodePrettily());
     }
  }
-```
+</pre>
 
 1. Get the response object from the request
 2. Gets the name parameter (query parameter)
@@ -86,9 +84,11 @@ First, let’s build the microservice fat-jar. In the terminal, execute:
 
 This command launches the application. The main class we used creates a clustered Vert.x instance and reads the configuration from src/conf/config.json. This configuration provides the HTTP port on which the REST service is published (35000).
 
-Let’s now open a browser and have a look to http://localhost:35000.
+**3. Test the static router**
 
-It should return something like:
+Click on the [this](https://[[HOST_SUBDOMAIN]]-35000-[[KATACODA_HOST]].environments.katacoda.com/) link, which will open another tab or window of your browser pointing to port 35000 on your client.
+
+You should now see an HTML page that looks like this:
 
 ```json
 
