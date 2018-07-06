@@ -2,6 +2,8 @@
 
 For your convenience, this scenario has been created using the OpenShift Launcher found [here](https://launch.openshift.io/launch/filtered-wizard/all). This launcher will automatically generate a zip file of a project that's in a ready-to-deploy state. We've selected the `Externalized Configuration` project and will be using the Spring Boot runtime option.
 
+**Build the application**
+``mvn clean install``{{execute}}
 
 **1. Understanding the Application**
 
