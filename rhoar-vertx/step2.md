@@ -3,13 +3,14 @@
 For your convenience, this scenario has been created using the OpenShift Launcher found [here](https://launch.openshift.io/launch/filtered-wizard/all). This launcher will automatically generate a zip file of a project that's in a ready-to-deploy state. We've selected the `Externalized Configuration` project and will be using the Spring Boot runtime option.
 
 **Build the application**
-``mvn clean install``{{execute}}
+
+``mvn clean install -DskipTests``{{execute}}
 
 **1. Understanding the Application**
 
 The project is a simple Greeting application, where a user inputs a fruit and is greeted by our service. Opening up our ``quote-generator/src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java``{{open}} file we can see the logic used to respond to our user. The interesting part of this logic is right here, where we retrieve the message:
 
-```java
+```
 @Override
 public void start() {
     super.start();

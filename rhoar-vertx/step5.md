@@ -11,7 +11,7 @@ stored in the secrets file to the application), but OpenShift supports a wide ra
 
 Let's add a deployment.yml that will set the system property to use our `config-openshift.json` config.
 
-Create the file by clicking on open ``src/main/fabric8/deployment.yml``{{open}}
+Create the file by clicking on open ``quote-generator/src/main/fabric8/deployment.yml``{{open}}
 
 Add the following content the the file (by clicking on *Copy to Editor* or copying it in directly):
 
@@ -32,7 +32,7 @@ spec:
 
 We also need to add a route.yml like this:
 
-Create the file by clicking on open ``src/main/fabric8/route.yml``{{open}}
+Create the file by clicking on open ``quote-generator/src/main/fabric8/route.yml``{{open}}
 
 Add the following content by clicking on *Copy to Editor* or copying it in directly:
 
