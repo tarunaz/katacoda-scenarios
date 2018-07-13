@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19218a82-6734-49e0-a526-b47900822298" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rhoar-vertx/00-intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/rhoar-vertx/00-intro.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rhoar-vertx/04-create-openshift-project.md" beforeDir="false" afterPath="$PROJECT_DIR$/rhoar-vertx/04-create-openshift-project.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rhoar-vertx/05-deploy-to-openshift.md" beforeDir="false" afterPath="$PROJECT_DIR$/rhoar-vertx/05-deploy-to-openshift.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/rhoar-vertx/03-create-quote-rest-endpoint.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-635">
+              <first_editor relative-caret-position="540">
                 <caret line="36" selection-start-line="36" selection-end-line="36" />
               </first_editor>
               <second_editor />
@@ -54,7 +51,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="195">
-                <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+                <caret line="13" selection-start-line="13" selection-end-line="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -66,7 +63,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="450">
-                <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="38" />
+                <caret line="30" column="38" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="38" />
               </first_editor>
               <second_editor />
             </state>
@@ -78,7 +75,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="60">
-                <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+                <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -160,9 +157,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,6 +186,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,6 +263,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -279,7 +277,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2771673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2802198" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -298,13 +296,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rhoar-vertx/index.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rhoar-vertx/99-outro.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -403,16 +394,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rhoar-vertx-backup/quote-generator/step2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="122" selection-start-line="7" selection-start-column="122" selection-end-line="7" selection-end-column="204" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/rhoar-vertx-backup/quote-generator/step2.md" />
     <entry file="file://$PROJECT_DIR$/rhoar-vertx/02-quote-generator-verticle.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -493,30 +475,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rhoar-vertx-backup/quote-generator/index.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="40" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rhoar-vertx-backup/quote-generator/env-init.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rhoar-vertx-backup/quote-generator/step2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="122" selection-start-line="7" selection-start-column="122" selection-end-line="7" selection-end-column="204" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/rhoar-vertx-backup/quote-generator/index.json" />
+    <entry file="file://$PROJECT_DIR$/rhoar-vertx-backup/quote-generator/env-init.sh" />
+    <entry file="file://$PROJECT_DIR$/rhoar-vertx-backup/quote-generator/step2.md" />
     <entry file="file://$PROJECT_DIR$/rhoar-vertx/02-quote-generator-verticle.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -537,16 +498,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rhoar-vertx-backup/quote-generator/step3.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="21" column="71" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="71" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/rhoar-vertx-backup/quote-generator/step3.md" />
     <entry file="file://$PROJECT_DIR$/rhoar-vertx/env-init.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -554,20 +506,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rhoar-vertx-backup/quote-generator/index.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="40" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rhoar-vertx-backup/quote-generator/env-init.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/rhoar-vertx-backup/quote-generator/index.json" />
+    <entry file="file://$PROJECT_DIR$/rhoar-vertx-backup/quote-generator/env-init.sh" />
     <entry file="file://$PROJECT_DIR$/rhoar-vertx/01-examine-the-sample-project.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -580,40 +520,10 @@
     <entry file="file://$PROJECT_DIR$/rhoar-vertx/quote-generator/finish.md" />
     <entry file="file://$PROJECT_DIR$/rhoar-vertx/quote-generator/intro.md" />
     <entry file="file://$PROJECT_DIR$/rhoar-vertx/quote-generator/index.json" />
-    <entry file="file://$PROJECT_DIR$/rhoar-vertx-backup/quote-generator/index.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="40" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rhoar-vertx-backup/quote-generator/env-init.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rhoar-vertx-backup/quote-generator/step3.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="21" column="71" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="71" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rhoar-vertx-backup/quote-generator/step2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="105">
-            <caret line="7" column="122" selection-start-line="7" selection-start-column="122" selection-end-line="7" selection-end-column="204" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/rhoar-vertx-backup/quote-generator/index.json" />
+    <entry file="file://$PROJECT_DIR$/rhoar-vertx-backup/quote-generator/env-init.sh" />
+    <entry file="file://$PROJECT_DIR$/rhoar-vertx-backup/quote-generator/step3.md" />
+    <entry file="file://$PROJECT_DIR$/rhoar-vertx-backup/quote-generator/step2.md" />
     <entry file="file://$PROJECT_DIR$/rhoar-vertx/temp" />
     <entry file="file://$PROJECT_DIR$/rhoar-vertx/env-init.sh">
       <provider selected="true" editor-type-id="text-editor">
@@ -642,7 +552,7 @@
     <entry file="file://$PROJECT_DIR$/rhoar-vertx/03-create-quote-rest-endpoint.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-635">
+          <first_editor relative-caret-position="540">
             <caret line="36" selection-start-line="36" selection-end-line="36" />
           </first_editor>
           <second_editor />
@@ -676,7 +586,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="450">
-            <caret line="30" column="38" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="38" />
+            <caret line="30" column="38" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="38" />
           </first_editor>
           <second_editor />
         </state>
@@ -686,17 +596,20 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="195">
-            <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <caret line="13" selection-start-line="13" selection-end-line="13" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/rhoar-vertx/reactive-ms-architecture.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/rhoar-vertx/00-intro.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="60">
-            <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           </first_editor>
           <second_editor />
         </state>

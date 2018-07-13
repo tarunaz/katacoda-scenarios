@@ -2,7 +2,6 @@ In this scenario, you will learn more about Reactive Microservices using [Eclips
 
 In this scenario we will create a microservice called `QuoteGenerator` The quote generator is a simulator that generates the quotes for 3 fictional companies MacroHard, Divinator, and Black Coat. The market data is published on the Vert.x event bus.  It also publishes an HTTP endpoint to get the current value of the quote. 
 
-![Architecture](../assets/rhoar-vertx/reactive-ms-architecture.png)
 
 >**NOTE:** To simplify the deployment you will deploy all the services in a single Vert.x Server. However the code is 99% the same if we were to deploy these in separate services.
 
