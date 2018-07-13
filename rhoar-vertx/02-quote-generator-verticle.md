@@ -34,7 +34,7 @@ public void start() {
 ```
 Verticles can retrieve a configuration using the `config()` method. Here it gets the details about the companies to simulate. The configuration is a `JsonObject`. Vert.x heavily uses JSON, so you are going to see a lot of JSON in this lab. For each company found in the configuration, it deploys the market data verticle with the extracted configuration. 
 
-Open the file in the editor: ``quote-generator/src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle``{{open}}
+Open the file in the editor: ``quote-generator/src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java``{{open}}
 Then, copy the below content into the file at ``//TODO: market data`` (or use the `Copy to Editor` button):
       
 <pre class="file" data-filename="src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java" data-target="insert" data-marker="//TODO: service discovery">
