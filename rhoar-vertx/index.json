@@ -18,7 +18,7 @@
       { "title": "Deploy to OpenShift ", "text": "step5.md" }
     ],
     "finish": {
-      "text": "finish.md"
+      "text": "99-outro.md"
     }
   },
   "files": [],
