@@ -20,9 +20,9 @@ vertx.deployVerticle(MarketDataVerticle.class.getName(),
 
 The next part in the method is about the service discovery mentioned in the microservice section. This component generates quotes sent on the event bus. But to let other components discover where the messages are sent (where means on which address), it registers it. market-data is the name of the service, ADDRESS is the event bus address on which the messages are sent. The last argument is a Handler that is notified when the registration has been completed. The handler receives a structure called AsyncResult.
 
-Copy the below content into the file at ``//TODO: service discovery`` (or use the `Copy to Editor` button):
+Copy the below content into the file at ``//TODO: do service discovery`` (or use the `Copy to Editor` button):
 
-<pre class="file" data-filename="src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java" data-target="insert" data-marker="//TODO: service discovery">
+<pre class="file" data-filename="src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java" data-target="insert" data-marker="//TODO: do service discovery">
 publishMessageSource("market-data", ADDRESS, rec -> {
       if (!rec.succeeded()) {
         rec.cause().printStackTrace();

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19218a82-6734-49e0-a526-b47900822298" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rhoar-vertx/01-examine-the-sample-project.md" beforeDir="false" afterPath="$PROJECT_DIR$/rhoar-vertx/01-examine-the-sample-project.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rhoar-vertx/02-quote-generator-verticle.md" beforeDir="false" afterPath="$PROJECT_DIR$/rhoar-vertx/02-quote-generator-verticle.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rhoar-vertx/03-create-quote-rest-endpoint.md" beforeDir="false" afterPath="$PROJECT_DIR$/rhoar-vertx/03-create-quote-rest-endpoint.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,23 +13,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="02-quote-generator-verticle.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="02-quote-generator-verticle.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rhoar-vertx/02-quote-generator-verticle.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="887">
-                <caret line="69" column="44" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
+              <first_editor relative-caret-position="212">
+                <caret line="24" column="145" selection-start-line="24" selection-start-column="145" selection-end-line="24" selection-end-column="145" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="03-create-quote-rest-endpoint.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="03-create-quote-rest-endpoint.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rhoar-vertx/03-create-quote-rest-endpoint.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="90">
+              <first_editor relative-caret-position="81">
                 <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
               </first_editor>
               <second_editor />
@@ -149,8 +146,8 @@
         <option value="$PROJECT_DIR$/rhoar-vertx/00-intro.md" />
         <option value="$PROJECT_DIR$/rhoar-vertx/index.json" />
         <option value="$PROJECT_DIR$/rhoar-vertx/01-examine-the-sample-project.md" />
-        <option value="$PROJECT_DIR$/rhoar-vertx/02-quote-generator-verticle.md" />
         <option value="$PROJECT_DIR$/rhoar-vertx/03-create-quote-rest-endpoint.md" />
+        <option value="$PROJECT_DIR$/rhoar-vertx/02-quote-generator-verticle.md" />
       </list>
     </option>
   </component>
@@ -601,21 +598,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rhoar-vertx/02-quote-generator-verticle.md">
+    <entry file="file://$PROJECT_DIR$/rhoar-vertx/03-create-quote-rest-endpoint.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="887">
-            <caret line="69" column="44" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
+          <first_editor relative-caret-position="81">
+            <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rhoar-vertx/03-create-quote-rest-endpoint.md">
+    <entry file="file://$PROJECT_DIR$/rhoar-vertx/02-quote-generator-verticle.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <first_editor relative-caret-position="212">
+            <caret line="24" column="145" selection-start-line="24" selection-start-column="145" selection-end-line="24" selection-end-column="145" />
           </first_editor>
           <second_editor />
         </state>
