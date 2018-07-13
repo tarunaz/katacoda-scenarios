@@ -11,9 +11,9 @@ As you review the content, you will notice that there are 3 TODO comments. Do no
 
 Verticles can retrieve a configuration using the `config()` method. Here it gets the details about the companies to simulate. The configuration is a `JsonObject`. Vert.x heavily uses JSON, so you are going to see a lot of JSON in this lab. For each company found in the configuration, it deploys the market data verticle with the extracted configuration. 
 
-Copy the below content into the file at ``//TODO: market data`` (or use the `Copy to Editor` button):
+Copy the below content into the file at ``//TODO: market data verticle`` (or use the `Copy to Editor` button):
       
-<pre class="file" data-filename="src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java" data-target="insert" data-marker="//TODO: market data">
+<pre class="file" data-filename="src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java" data-target="insert" data-marker="//TODO: market data verticle">
 vertx.deployVerticle(MarketDataVerticle.class.getName(),
    new DeploymentOptions().setConfig(company));
 </pre>
@@ -33,9 +33,9 @@ publishMessageSource("market-data", ADDRESS, rec -> {
 
 Finally, it deploys another verticle providing a very simple HTTP API.
 
-Copy the below content into the file at ``//TODO: http endpoint`` (or use the `Copy to Editor` button):
+Copy the below content into the file at ``//TODO: http endpoint verticle`` (or use the `Copy to Editor` button):
 
-<pre class="file" data-filename="src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java" data-target="insert" data-marker="//TODO: http endpoint">
+<pre class="file" data-filename="src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java" data-target="insert" data-marker="//TODO: http endpoint verticle">
 publishHttpEndpoint("quotes", "localhost", config().getInteger("http.port", 8080), ar -> {
       if (ar.failed()) {
         ar.cause().printStackTrace();
@@ -64,3 +64,7 @@ Remember, Vert.x is promoting an asynchronous, non-blocking development model. P
  }
 ```
  
+
+**2. Build the application**
+
+``mvn clean install -DskipTests``{{execute}}

@@ -2,9 +2,9 @@
 
 Open the `RestQuoteAPIVerticle`. This verticle exposes a HTTP endpoint to retrieve the current / last values of the maker data (quotes). In the `start` method you need to:
 
-Register an event bus consumer to collect the last quotations (in the `quotes` map)
+* Register an event bus consumer to collect the last quotations (in the `quotes` map)
 
-Handle HTTP requests to return the list of quotes, or a single quote if the `name` (query) param is set.
+* Handle HTTP requests to return the list of quotes, or a single quote if the `name` (query) param is set.
 
 Let’s do that…​.
 
