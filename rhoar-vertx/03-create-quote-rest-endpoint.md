@@ -80,15 +80,13 @@ You may wonder why synchronization is not required. Indeed we write in the map a
 
 First, let’s build the microservice. In the terminal, execute:
 
-``cd quote-generator``{{execute}}
-
 ``mvn vertx:run -DskipTests``{{execute}}
 
 This command launches the application. The main class we used creates a clustered Vert.x instance and reads the configuration from src/conf/config.json. This configuration provides the HTTP port on which the REST service is published (8080).
 
 **3. Test the static router**
 
-Click on the [this](https://[[HOST_SUBDOMAIN]]-35000-[[KATACODA_HOST]].environments.katacoda.com/) link, which will open another tab or window of your browser pointing to port 35000 on your client.
+Click on the [this](https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/) link, which will open another tab or window of your browser pointing to port 35000 on your client.
 
 You should now see an HTML page that looks like this:
 

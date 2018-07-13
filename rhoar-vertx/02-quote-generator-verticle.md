@@ -5,7 +5,7 @@
 As you may have noticed, the code is structured in 3 `verticles`, but what are these? Verticles is a way to structure Vert.x application code. It’s not mandatory, but it is quite convenient. A verticle is a chunk of code that is deployed on top of a Vert.x instance. A verticle has access to the instance of `vertx` on which it’s deployed, and can deploy other verticles.
 
 Open the file by clicking on the link below and look at the `start` method
-``quote-generator/src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java``{{open}}
+``src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java``{{open}}
 
 As you review the content, you will notice that there are 3 TODO comments. Do not remove them! These comments are used as a marker and without them, you will not be able to finish this scenario.
 
@@ -63,8 +63,4 @@ Remember, Vert.x is promoting an asynchronous, non-blocking development model. P
    }
  }
 ```
- 
 
-**2. Build the application**
-
-``mvn clean install -DskipTests``{{execute}}

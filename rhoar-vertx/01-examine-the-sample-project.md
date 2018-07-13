@@ -1,7 +1,18 @@
 The sample project shows the components of a basic Vert.x project laid out in different
 subdirectories according to Maven best practices.
 
-**1. Examine the Maven project structure.**
+**1. Build the parent POM.**
+
+``mvn clean install -DskipTests``{{execute}}
+
+**2. Examine the Quote Generator project structure.**
+
+Switch to the ``quote-generator`` project
+``cd quote-generator``{{execute}}
+
+> Click on the `tree` command below to automatically copy it into the terminal and execute it
+
+``tree``{{execute}}
 
 ```sh
 .
