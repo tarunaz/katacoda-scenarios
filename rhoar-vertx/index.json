@@ -7,15 +7,15 @@
   "time": "15 minutes",
   "details": {
     "intro": {
-      "text": "intro.md",
+      "text": "00-intro.md",
       "code": "env-init.sh"
     },
     "steps": [
-      { "title": "Step 1", "text": "step1.md" },
-      { "title": "Step 2", "text": "step2.md" },
-      { "title": "Step 3", "text": "step3.md" },
-      { "title": "Create project", "text": "step4.md" },
-      { "title": "Deploy to OpenShift ", "text": "step5.md" }
+      { "title": "Step 1", "text": "01-examine-the-sample-project.md" },
+      { "title": "Step 2", "text": "02-quote-generator-verticle.md" },
+      { "title": "Step 3", "text": "03-create-quote-rest-endpoint.md" },
+      { "title": "Create project", "text": "04-create-openshift-project.md" },
+      { "title": "Deploy to OpenShift ", "text": "05-deploy-to-openshift.md" }
     ],
     "finish": {
       "text": "99-outro.md"

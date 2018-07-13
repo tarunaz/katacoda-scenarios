@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="19218a82-6734-49e0-a526-b47900822298" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/rhoar-vertx/00-intro.md" beforeDir="false" afterPath="$PROJECT_DIR$/rhoar-vertx/00-intro.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rhoar-vertx/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/rhoar-vertx/index.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,21 +71,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="00-intro.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="00-intro.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rhoar-vertx/00-intro.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="60">
+                <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-end-line="5" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rhoar-vertx/index.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            <state relative-caret-position="240">
+              <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -139,10 +142,10 @@
         <option value="$PROJECT_DIR$/rhoar-vertx/step3.md" />
         <option value="$PROJECT_DIR$/rhoar-vertx/step5.md" />
         <option value="$PROJECT_DIR$/rhoar-vertx/finish.md" />
-        <option value="$PROJECT_DIR$/rhoar-vertx/index.json" />
         <option value="$PROJECT_DIR$/rhoar-vertx/05-deploy-to-openshift.md" />
         <option value="$PROJECT_DIR$/rhoar-vertx/04-create-openshift-project.md" />
         <option value="$PROJECT_DIR$/rhoar-vertx/00-intro.md" />
+        <option value="$PROJECT_DIR$/rhoar-vertx/index.json" />
       </list>
     </option>
   </component>
@@ -530,13 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rhoar-vertx/index.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rhoar-vertx/99-outro.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -606,8 +602,17 @@
     <entry file="file://$PROJECT_DIR$/rhoar-vertx/00-intro.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-end-line="5" />
+          </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rhoar-vertx/index.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="72" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
         </state>
       </provider>
     </entry>
