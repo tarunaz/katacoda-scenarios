@@ -37,7 +37,7 @@ Verticles can retrieve a configuration using the `config()` method. Here it gets
 Open the file in the editor: ``quote-generator/src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java``{{open}}
 Then, copy the below content into the file at ``//TODO: market data`` (or use the `Copy to Editor` button):
       
-<pre class="file" data-filename="src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java" data-target="insert" data-marker="//TODO: service discovery">
+<pre class="file" data-filename="src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java" data-target="insert" data-marker="//TODO: market data">
 vertx.deployVerticle(MarketDataVerticle.class.getName(),
    new DeploymentOptions().setConfig(company));
 </pre>
@@ -47,7 +47,7 @@ The next part in the method is about the service discovery mentioned in the micr
 
 Copy the below content into the file at ``//TODO: service discovery`` (or use the `Copy to Editor` button):
 
-<pre class="file" data-filename="src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java" data-target="insert" data-marker="//TODO: market data">
+<pre class="file" data-filename="src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java" data-target="insert" data-marker="//TODO: service discovery">
 publishMessageSource("market-data", ADDRESS, rec -> {
       if (!rec.succeeded()) {
         rec.cause().printStackTrace();
