@@ -11,18 +11,18 @@ As you review the content, you will notice that there are 3 TODO comments. Do no
 
 Verticles can retrieve a configuration using the `config()` method. Here it gets the details about the companies to simulate. The configuration is a `JsonObject`. Vert.x heavily uses JSON, so you are going to see a lot of JSON in this lab. For each company found in the configuration, it deploys the market data verticle with the extracted configuration. 
 
-Copy the below content into the file at ``//TODO: market data verticle`` (or use the `Copy to Editor` button):
+Add the below content to the matching `TODO` statement (or use the `Copy to Editor` button):
       
-<pre class="file" data-filename="src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java" data-target="insert" data-marker="//TODO: market data verticle">
+<pre class="file" data-filename="src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java" data-target="insert" data-marker="//TODO: deploy market data verticle">
 vertx.deployVerticle(MarketDataVerticle.class.getName(),
    new DeploymentOptions().setConfig(company));
 </pre>
 
 The next part in the method is about the service discovery mentioned in the microservice section. This component generates quotes sent on the event bus. But to let other components discover where the messages are sent (where means on which address), it registers it. market-data is the name of the service, ADDRESS is the event bus address on which the messages are sent. The last argument is a Handler that is notified when the registration has been completed. The handler receives a structure called AsyncResult.
 
-Copy the below content into the file at ``//TODO: do service discovery`` (or use the `Copy to Editor` button):
+Add the below content to the matching `TODO` statement (or use the `Copy to Editor` button):
 
-<pre class="file" data-filename="src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java" data-target="insert" data-marker="//TODO: do service discovery">
+<pre class="file" data-filename="src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java" data-target="insert" data-marker="//TODO: publish market data service on event bus">
 publishMessageSource("market-data", ADDRESS, rec -> {
       if (!rec.succeeded()) {
         rec.cause().printStackTrace();
@@ -33,9 +33,9 @@ publishMessageSource("market-data", ADDRESS, rec -> {
 
 Finally, it deploys another verticle providing a very simple HTTP API.
 
-Copy the below content into the file at ``//TODO: http endpoint verticle`` (or use the `Copy to Editor` button):
+Add the below content to the matching `TODO` statement (or use the `Copy to Editor` button):
 
-<pre class="file" data-filename="src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java" data-target="insert" data-marker="//TODO: http endpoint verticle">
+<pre class="file" data-filename="src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java" data-target="insert" data-marker="//TODO: publish http endpoint">
 publishHttpEndpoint("quotes", "localhost", config().getInteger("http.port", 8080), ar -> {
       if (ar.failed()) {
         ar.cause().printStackTrace();
