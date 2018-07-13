@@ -17,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/rhoar-vertx/02-quote-generator-verticle.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="585">
-                <caret line="39" column="154" selection-start-line="39" selection-start-column="154" selection-end-line="39" selection-end-column="154" />
+              <first_editor relative-caret-position="345">
+                <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               </first_editor>
               <second_editor />
             </state>
@@ -610,8 +610,8 @@
     <entry file="file://$PROJECT_DIR$/rhoar-vertx/02-quote-generator-verticle.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="585">
-            <caret line="39" column="154" selection-start-line="39" selection-start-column="154" selection-end-line="39" selection-end-column="154" />
+          <first_editor relative-caret-position="345">
+            <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           </first_editor>
           <second_editor />
         </state>

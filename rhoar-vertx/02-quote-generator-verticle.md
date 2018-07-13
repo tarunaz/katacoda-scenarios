@@ -8,40 +8,19 @@
 
 As you may have noticed, the code is structured in 3 `verticles`, but what are these? Verticles is a way to structure Vert.x application code. It’s not mandatory, but it is quite convenient. A verticle is a chunk of code that is deployed on top of a Vert.x instance. A verticle has access to the instance of `vertx` on which it’s deployed, and can deploy other verticles.
 
-Let’s open the `GeneratorConfigVerticle` class, and look at the start method:
+Open the file by clicking on the link below and look at the `start` method
+``quote-generator/src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java``{{open}}
 
-```java
-@Override
-public void start() {
-    super.start();
+As you review the content, you will notice that there are 3 TODO comments. Do not remove them! These comments are used as a marker and without them, you will not be able to finish this scenario.
 
-    JsonArray quotes = config().getJsonArray("companies");
-    for (Object q : quotes) {
-      JsonObject company = (JsonObject) q;
-      
-      // Deploy the verticle with a configuration.
-      //TODO: market data
-    }
-
-    vertx.deployVerticle(RestQuoteAPIVerticle.class.getName());
-
-    // Publish the services in the discovery infrastructure
-    //TODO: service discovery
-
-    // Publish a simple http endpoint
-    //TODO: http endpoint
-}
-```
 Verticles can retrieve a configuration using the `config()` method. Here it gets the details about the companies to simulate. The configuration is a `JsonObject`. Vert.x heavily uses JSON, so you are going to see a lot of JSON in this lab. For each company found in the configuration, it deploys the market data verticle with the extracted configuration. 
 
-Open the file in the editor: ``quote-generator/src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java``{{open}}
-Then, copy the below content into the file at ``//TODO: market data`` (or use the `Copy to Editor` button):
+Copy the below content into the file at ``//TODO: market data`` (or use the `Copy to Editor` button):
       
 <pre class="file" data-filename="src/main/java/io/vertx/workshop/quote/GeneratorConfigVerticle.java" data-target="insert" data-marker="//TODO: market data">
 vertx.deployVerticle(MarketDataVerticle.class.getName(),
    new DeploymentOptions().setConfig(company));
 </pre>
-
 
 The next part in the method is about the service discovery mentioned in the microservice section. This component generates quotes sent on the event bus. But to let other components discover where the messages are sent (where means on which address), it registers it. market-data is the name of the service, ADDRESS is the event bus address on which the messages are sent. The last argument is a Handler that is notified when the registration has been completed. The handler receives a structure called AsyncResult.
 
