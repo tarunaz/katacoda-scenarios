@@ -3,10 +3,6 @@ subdirectories according to Maven best practices.
 
 **1. Examine the Maven project structure.**
 
-> Click on the `tree` command below to automatically copy it into the terminal and execute it
-
-``tree``{{execute}}
-
 ```sh
 .
 ├── README.md <--- component description
