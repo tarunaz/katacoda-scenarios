@@ -27,3 +27,7 @@ subdirectories according to Maven best practices.
 If you have used Maven and Java before this should look familiar. This is how a typical Vert.x Java project would looks like.
 
 It consists of 3 Verticles. The `GeneratorConfigVerticle` generates the quotes for 3 fictional companies that are passed in the config `src/conf/config.json`. It uses `MarketDataVerticle` to publish the market data on the Vert.x Event Bus. The `RestQuoteAPIVerticle` Verticles provides an HTTP endpint to access the company quotes.
+
+**Build the application**
+
+``mvn clean install -DskipTests``{{execute}}
