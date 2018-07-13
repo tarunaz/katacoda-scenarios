@@ -8,6 +8,7 @@ subdirectories according to Maven best practices.
 **2. Examine the Quote Generator project structure.**
 
 Switch to the ``quote-generator`` project
+
 ``cd quote-generator``{{execute}}
 
 > Click on the `tree` command below to automatically copy it into the terminal and execute it

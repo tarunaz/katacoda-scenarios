@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/rhoar-vertx/01-examine-the-sample-project.md" beforeDir="false" afterPath="$PROJECT_DIR$/rhoar-vertx/01-examine-the-sample-project.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rhoar-vertx/02-quote-generator-verticle.md" beforeDir="false" afterPath="$PROJECT_DIR$/rhoar-vertx/02-quote-generator-verticle.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rhoar-vertx/03-create-quote-rest-endpoint.md" beforeDir="false" afterPath="$PROJECT_DIR$/rhoar-vertx/03-create-quote-rest-endpoint.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rhoar-vertx/05-deploy-to-openshift.md" beforeDir="false" afterPath="$PROJECT_DIR$/rhoar-vertx/05-deploy-to-openshift.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/rhoar-vertx/02-quote-generator-verticle.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-118">
-                <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+              <first_editor relative-caret-position="105">
+                <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -33,8 +32,8 @@
         <entry file="file://$PROJECT_DIR$/rhoar-vertx/03-create-quote-rest-endpoint.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="107">
-                <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+              <first_editor relative-caret-position="1260">
+                <caret line="84" column="240" selection-start-line="84" selection-start-column="240" selection-end-line="84" selection-end-column="240" />
               </first_editor>
               <second_editor />
             </state>
@@ -62,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="05-deploy-to-openshift.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="05-deploy-to-openshift.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rhoar-vertx/05-deploy-to-openshift.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -95,12 +94,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01-examine-the-sample-project.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="01-examine-the-sample-project.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rhoar-vertx/01-examine-the-sample-project.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="150">
-                <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+                <caret line="10" selection-start-line="10" selection-end-line="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -148,10 +147,10 @@
         <option value="$PROJECT_DIR$/rhoar-vertx/04-create-openshift-project.md" />
         <option value="$PROJECT_DIR$/rhoar-vertx/00-intro.md" />
         <option value="$PROJECT_DIR$/rhoar-vertx/index.json" />
+        <option value="$PROJECT_DIR$/rhoar-vertx/05-deploy-to-openshift.md" />
         <option value="$PROJECT_DIR$/rhoar-vertx/01-examine-the-sample-project.md" />
         <option value="$PROJECT_DIR$/rhoar-vertx/02-quote-generator-verticle.md" />
         <option value="$PROJECT_DIR$/rhoar-vertx/03-create-quote-rest-endpoint.md" />
-        <option value="$PROJECT_DIR$/rhoar-vertx/05-deploy-to-openshift.md" />
       </list>
     </option>
   </component>
@@ -164,8 +163,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,7 +193,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,7 +269,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-22" width="1680" height="1072" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -284,7 +282,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2936508" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2973138" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -552,16 +550,6 @@
     <entry file="file://$PROJECT_DIR$/assets/rhoar-vertx/openshift-console-tab.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/rhoar-vertx/04-create-openshift-project.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="195">
-            <caret line="13" selection-start-line="13" selection-end-line="13" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/rhoar-vertx/reactive-ms-architecture.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -582,21 +570,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rhoar-vertx/01-examine-the-sample-project.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rhoar-vertx/02-quote-generator-verticle.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-118">
-            <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
           </first_editor>
           <second_editor />
         </state>
@@ -605,8 +583,18 @@
     <entry file="file://$PROJECT_DIR$/rhoar-vertx/03-create-quote-rest-endpoint.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="107">
-            <caret line="82" column="5" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+          <first_editor relative-caret-position="1260">
+            <caret line="84" column="240" selection-start-line="84" selection-start-column="240" selection-end-line="84" selection-end-column="240" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rhoar-vertx/04-create-openshift-project.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="195">
+            <caret line="13" selection-start-line="13" selection-end-line="13" />
           </first_editor>
           <second_editor />
         </state>
@@ -617,6 +605,16 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="105">
             <caret line="7" column="122" selection-start-line="7" selection-start-column="122" selection-end-line="7" selection-end-column="122" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rhoar-vertx/01-examine-the-sample-project.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="10" selection-start-line="10" selection-end-line="10" />
           </first_editor>
           <second_editor />
         </state>
