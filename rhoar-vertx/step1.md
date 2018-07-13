@@ -1,8 +1,13 @@
-# Review the project structure
+The sample project shows the components of a basic Vert.x project laid out in different
+subdirectories according to Maven best practices.
 
-Let’s have a look to the project, as every other project are structured the same way.
+**1. Examine the Maven project structure.**
 
-```
+> Click on the `tree` command below to automatically copy it into the terminal and execute it
+
+``tree``{{execute}}
+
+```sh
 .
 ├── README.md <--- component description
 ├── pom.xml <--- the Maven file
@@ -10,23 +15,19 @@ Let’s have a look to the project, as every other project are structured the sa
     ├── conf
     │   └── config.json <--- a configuration file that is passed when the application starts
     └── main
+        └── fabric8
+            └── configmap.yml
+            └── deployment.yml
         └── java
             └── io.vertx.workshop.quote
                             ├── GeneratorConfigVerticle.java <--- the verticles
-                            ├── QuoteVerticle.java
+                            ├── MarketDataVerticle.java
                             └── RestQuoteAPIVerticle.java
 
 ```
 
-Let’s start with the pom.xml file. This file specifies the Maven build:
+>**NOTE:** To generate a similar project skeleton you can visit the [Vert.x Starter](http://start.vertx.io/) webpage.
 
-1. Define the dependencies
+If you have used Maven and Java before this should look familiar. This is how a typical Vert.x Java project would looks like.
 
-2. Compile the java code and process resources (if any)
-
-3. Build a fat-jar
-
-A fat-jar (also called uber jar or shaded jar) is a convenient way to package a Vert.x application. It creates a über-jar containing your application and all its dependencies, including Vert.x. Then, to launch it, you just need to use java -jar …​., without having to handle the CLASSPATH. Wait, I told you that Vert.x does not dictate a type of packaging. It’s true, fat jars are convenient, but it’s not the only way, you can use plain (not fat) jars, OSGi bundles…​
-
-The created fat-jar is configured to use a main class provided in vertx-workshop-common (io.vertx.workshop .common.Launcher). This Launcher class creates the Vert.x instance, configure it and deploys the main-verticle. Again, it’s just a convenient way, you can use your own main class.
-
+It consists of 3 Verticles. The `GeneratorConfigVerticle` generates the quotes for 3 fictional companies that are passed in the config `src/conf/config.json`. It uses `MarketDataVerticle` to publish the market data on the Vert.x Event Bus. The `RestQuoteAPIVerticle` Verticles provides an HTTP endpint to access the company quotes.

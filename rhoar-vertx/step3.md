@@ -1,35 +1,35 @@
 # The quote REST endpoint
 
-It’s time for you to develop some parts of the application (I know you have pins and needles in your fingers). Open the RestQuoteAPIVerticle. It’s a verticle class extending AbstractVerticle. In the start method you need to:
+Open the `RestQuoteAPIVerticle`. This verticle exposes a HTTP endpoint to retrieve the current / last values of the maker data (quotes). In the `start` method you need to:
 
-Register an event bus consumer to collect the last quotations (in the quotes map)
+Register an event bus consumer to collect the last quotations (in the `quotes` map)
 
-Handle HTTP requests to return the list of quotes, or a single quote if the name (query) param is set.
+Handle HTTP requests to return the list of quotes, or a single quote if the `name` (query) param is set.
 
 Let’s do that…​.
 
 
 **1. Task - Implementing a Handler to receive events**
 
-The first action is about creating a Handler, so a method that is invoked on event. Handlers are an important part of Vert.x, so it’s important to understand what they are.
+The first action is about creating a `Handler`, i.e. a method that is invoked on event. 
 
-In this task, the Handler is going to be called for each message sent on the event bus on a specific address (receiving each quote sent by the generator). It’s a message consumer. The message parameter is the received message.
+In this task, the `Handler` is going to be called for each message sent on the event bus on a specific `address` (receiving each quote sent by the generator). It’s a message consumer. The `message` parameter is the received message.
 
 Implement the logic that retrieve the body of the message (with the body() method. Then extract from the body the name of the quote and add an entry name → quote in the quotes map.
 
 Open the file in the editor: ``quote-generator/src/main/java/io/vertx/workshop/quote/RestQuoteAPIVerticle.java``{{open}}
-Then, copy the below content into the file between the ``// ----//``(or use the `Copy to Editor` button):
+Then, copy the below content into the file at the ``//TODO: insert quotes`` (or use the `Copy to Editor` button):
       
 <pre class="file" data-filename="src/main/java/io/vertx/workshop/quote/RestQuoteAPIVerticle.java" data-target="insert" data-marker="//TODO: insert quotes">
 JsonObject quote = message.body(); // 1
 quotes.put(quote.getString("name"), quote); // 2
 </pre>
 
-First, it retrieves the message body (1). It’s a JSON object, and stores it in the quotes map (2).
+``First, it retrieves the message body (1). It’s a JSON object, and stores it in the quotes map (2).``
 
 **2. Task - Implementing a Handler to handle HTTP requests**
 
-Now that you did a first Handler, let’s do a second one. This handler does not receive messages from the event bus, but HTTP requests. The handler is attached to a HTTP server and is called every time there is a HTTP request to the server, the handler is called and is responsible for writing the response.
+Now that you did a first `Handler`, let’s do a second one. This handler does not receive messages from the event bus, but HTTP requests. The handler is attached to a HTTP server and is called every time there is a HTTP request to the server, the handler is called and is responsible for writing the response.
 
 To handle the HTTP requests, we need a HTTP server. Fortunately, Vert.x lets you create HTTP servers using:
 ```java
@@ -82,9 +82,9 @@ First, let’s build the microservice. In the terminal, execute:
 
 ``cd quote-generator``{{execute}}
 
-``mvn compile vertx:run``{{execute}}
+``mvn vertx:run -DskipTests``{{execute}}
 
-This command launches the application. The main class we used creates a clustered Vert.x instance and reads the configuration from src/conf/config.json. This configuration provides the HTTP port on which the REST service is published (35000).
+This command launches the application. The main class we used creates a clustered Vert.x instance and reads the configuration from src/conf/config.json. This configuration provides the HTTP port on which the REST service is published (8080).
 
 **3. Test the static router**
 
@@ -124,3 +124,11 @@ You should now see an HTML page that looks like this:
   }
 }
 ```
+**4. Stop the application**
+
+Before moving on, click in the terminal window and then press CTRL-C to stop the running application!
+
+##Congratulations!
+You have seen the basics of Vert.x development including Asynchronous API and AsyncResult, implementing Handler and receiving messages from the event bus
+
+In next step of this scenario we will deploy our application to the OpenShift Container Platform.
