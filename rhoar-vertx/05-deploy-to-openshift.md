@@ -28,7 +28,7 @@ to access the sample UI.
 
 > You can also access the application through the link on the OpenShift Web Console Overview page.
 
-![Overview link](/redhat-middleware-workshops/assets/reactive-microservices/routelink.png)
+![Overview link](../assets/rhoar-vertx/routelink.png)
 
 
 ## Congratulations!

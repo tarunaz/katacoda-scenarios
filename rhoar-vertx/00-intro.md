@@ -2,7 +2,7 @@ In this scenario, you will learn more about Reactive Microservices using [Eclips
 
 In this scenario we will create a microservice called `QuoteGenerator` The quote generator is a simulator that generates the quotes for 3 fictional companies MacroHard, Divinator, and Black Coat. The market data is published on the Vert.x event bus.  It also publishes an HTTP endpoint to get the current value of the quote. 
 
-![Architecture](/redhat-middleware-workshops/assets/reactive-microservices/reactive-ms-architecture.png)
+![Architecture](../assets/rhoar-vertx/reactive-ms-architecture.png)
 
 >**NOTE:** To simplify the deployment you will deploy all the services in a single Vert.x Server. However the code is 99% the same if we were to deploy these in separate services.
 
@@ -18,7 +18,7 @@ The asynchronous behavior or reactive systems will also save resources. In synch
 
 ## What is Eclipse Vert.x?
 
-![Local Web Browser Tab](/redhat-middleware-workshops/assets/reactive-microservices/vertx-logo.png)
+![Local Web Browser Tab](../assets/rhoar-vertx/vertx-logo.png)
 
 Eclipse Vert.x is a reactive toolkit for the Java Virtual Machine that is polyglot (e.g., supports multiple programming languages).
 In this session, we will focus on Java, but it is possible to build the same application in JavaScript, Groovy, Ruby, Ceylon, Scala, or Kotlin.
