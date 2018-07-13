@@ -80,7 +80,7 @@ You may wonder why synchronization is not required. Indeed we write in the map a
 
 First, let’s build the microservice. In the terminal, execute:
 
-``mvn vertx:run -DskipTests``{{execute}}
+``mvn compile vertx:run``{{execute}}
 
 This command launches the application. The main class we used creates a clustered Vert.x instance and reads the configuration from src/conf/config.json. This configuration provides the HTTP port on which the REST service is published (8080).
 
