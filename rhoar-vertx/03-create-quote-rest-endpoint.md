@@ -18,7 +18,7 @@ In this task, the `Handler` is going to be called for each message sent on the e
 Implement the logic that retrieve the body of the message (with the body() method. Then extract from the body the name of the quote and add an entry name → quote in the quotes map.
 
 Open the file in the editor: ``quote-generator/src/main/java/io/vertx/workshop/quote/RestQuoteAPIVerticle.java``{{open}}
-Then, copy the below content into the file at the ``//TODO: insert quotes`` (or use the `Copy to Editor` button):
+Then, copy the below content to the matching `TODO` statement (or use the `Copy to Editor` button):
       
 <pre class="file" data-filename="src/main/java/io/vertx/workshop/quote/RestQuoteAPIVerticle.java" data-target="insert" data-marker="//TODO: insert quotes">
 JsonObject quote = message.body(); // 1
@@ -52,6 +52,8 @@ Write the content of the request handler to respond to the request:
 * To write the response use response.end(content).
 * To create the JSON representation of an object, you can use the Json.encode method
 
+Copy the following to the matching `TODO` statement
+
 <pre class="file" data-filename="src/main/java/io/vertx/workshop/quote/RestQuoteAPIVerticle.java" data-target="insert" data-marker="//TODO: return quotes">
 String company = request.getParam("name");          
 if (company == null) {
@@ -83,8 +85,6 @@ First, let’s build the microservice. In the terminal, execute:
 ``mvn compile vertx:run``{{execute}}
 
 This command launches the application. The main class we used creates a clustered Vert.x instance and reads the configuration from src/conf/config.json. This configuration provides the HTTP port on which the REST service is published (35000).
-
-**3. Test the static router**
 
 Click on the [this](https://[[HOST_SUBDOMAIN]]-35000-[[KATACODA_HOST]].environments.katacoda.com/) link, which will open another tab or window of your browser pointing to port 35000 on your client.
 
@@ -122,9 +122,20 @@ You should now see an HTML page that looks like this:
   }
 }
 ```
-**4. Stop the application**
 
-Before moving on, click in the terminal window and then press CTRL-C to stop the running application!
+It gives the current details of each quotes. The data is updated every 3 seconds, so refresh your browser to get the latest data.
+
+
+**4. Test the dashboard**
+Let’s now launch the dashboard. Open another terminal and execute
+
+``cd /root/code/trader-dashboard``{{execute}}
+
+``mvn compile vertx:run``{{execute}}
+
+Then, open your browser to [this](https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/) link, which will open another tab or window of your browser pointing to port 8080 on your client.
+
+Some parts have no content, and it’s expected as it’s just the beginning…​
 
 ##Congratulations!
 You have seen the basics of Vert.x development including Asynchronous API and AsyncResult, implementing Handler and receiving messages from the event bus

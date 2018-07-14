@@ -10,7 +10,7 @@ the deployment characteristics of the app (in this case we mount a config file f
 
 Build and deploy the project using the following command, which will use the maven plugin to deploy:
 
-`mvn fabric8:deploy -Popenshift -DskipTests`{{execute T1 interrupt}}
+`mvn fabric8:deploy -Popenshift`{{execute T1 interrupt}}
 
 The build and deploy may take a minute or two. Wait for it to complete. You should see a **BUILD SUCCESS** at the
 end of the build output.
@@ -30,6 +30,15 @@ to access the sample UI.
 
 ![Overview link](../assets/rhoar-vertx/routelink.png)
 
+**4. Build and Deploy the dashboard**
+
+`cd /root/code/trader-dashboard`{{execute T1 interrupt}}
+
+`mvn fabric8:deploy -Popenshift`{{execute T1 interrupt}}
+
+Click on the
+[route URL](http://quote-generator-vertx-microtrader.[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com)
+to access the sample UI.
 
 ## Congratulations!
 
