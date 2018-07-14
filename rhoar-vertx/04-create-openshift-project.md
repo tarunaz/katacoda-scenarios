@@ -4,7 +4,7 @@ OpenShift also ships with a feature rich web console as well as command line too
 
 **1. Login to OpenShift Container Platform**
 
-To login, we will use the oc command and then specify username and password like this:
+Do this in the 1st terminal. To login, we will use the oc command and then specify username and password like this:
 
 ``oc login https://[[HOST_SUBDOMAIN]]-8443-[[KATACODA_HOST]].environments.katacoda.com -u developer -p developer --insecure-skip-tls-verify=true``{{execute interrupt}}
 
