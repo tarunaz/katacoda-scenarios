@@ -142,7 +142,7 @@ Some parts have no content, and it’s expected as it’s just the beginning…�
 
 **5. Stop the application**
 
-Before moving on, click in the terminal window and then press CTRL-C to stop the running application!
+Before moving on, close this terminal window and switch back to the 1st terminal and then press CTRL-C to stop the running application!
 
 ## Congratulations!
 You have seen the basics of Vert.x development including Asynchronous API and AsyncResult, implementing Handler and receiving messages from the event bus
