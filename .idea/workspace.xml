@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19218a82-6734-49e0-a526-b47900822298" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rhoar-vertx/03-create-quote-rest-endpoint.md" beforeDir="false" afterPath="$PROJECT_DIR$/rhoar-vertx/03-create-quote-rest-endpoint.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rhoar-vertx/05-deploy-to-openshift.md" beforeDir="false" afterPath="$PROJECT_DIR$/rhoar-vertx/05-deploy-to-openshift.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,12 +25,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="03-create-quote-rest-endpoint.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="03-create-quote-rest-endpoint.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rhoar-vertx/03-create-quote-rest-endpoint.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="381">
-                <caret line="88" column="181" selection-start-line="88" selection-start-column="181" selection-end-line="88" selection-end-column="181" />
+              <first_editor relative-caret-position="651">
+                <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
               </first_editor>
               <second_editor />
             </state>
@@ -60,12 +58,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="05-deploy-to-openshift.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="05-deploy-to-openshift.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rhoar-vertx/05-deploy-to-openshift.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="375">
-                <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+              <first_editor relative-caret-position="105">
+                <caret line="7" column="148" selection-start-line="7" selection-start-column="148" selection-end-line="7" selection-end-column="148" />
               </first_editor>
               <second_editor />
             </state>
@@ -148,8 +146,8 @@
         <option value="$PROJECT_DIR$/rhoar-vertx/index.json" />
         <option value="$PROJECT_DIR$/rhoar-vertx/01-examine-the-sample-project.md" />
         <option value="$PROJECT_DIR$/rhoar-vertx/02-quote-generator-verticle.md" />
-        <option value="$PROJECT_DIR$/rhoar-vertx/05-deploy-to-openshift.md" />
         <option value="$PROJECT_DIR$/rhoar-vertx/03-create-quote-rest-endpoint.md" />
+        <option value="$PROJECT_DIR$/rhoar-vertx/05-deploy-to-openshift.md" />
       </list>
     </option>
   </component>
@@ -590,16 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rhoar-vertx/05-deploy-to-openshift.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="375">
-            <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rhoar-vertx/04-create-openshift-project.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -613,8 +601,18 @@
     <entry file="file://$PROJECT_DIR$/rhoar-vertx/03-create-quote-rest-endpoint.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="381">
-            <caret line="88" column="181" selection-start-line="88" selection-start-column="181" selection-end-line="88" selection-end-column="181" />
+          <first_editor relative-caret-position="651">
+            <caret line="106" column="19" selection-start-line="106" selection-start-column="19" selection-end-line="106" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rhoar-vertx/05-deploy-to-openshift.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="148" selection-start-line="7" selection-start-column="148" selection-end-line="7" selection-end-column="148" />
           </first_editor>
           <second_editor />
         </state>
