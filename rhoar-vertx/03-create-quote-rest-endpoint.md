@@ -144,7 +144,7 @@ Some parts have no content, and it’s expected as it’s just the beginning…�
 
 Before moving on, click in the terminal window and then press CTRL-C to stop the running application!
 
-##Congratulations!
+## Congratulations!
 You have seen the basics of Vert.x development including Asynchronous API and AsyncResult, implementing Handler and receiving messages from the event bus
 
 In next step of this scenario we will deploy our application to the OpenShift Container Platform.
