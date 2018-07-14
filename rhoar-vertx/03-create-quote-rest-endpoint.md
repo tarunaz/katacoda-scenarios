@@ -127,7 +127,10 @@ It gives the current details of each quotes. The data is updated every 3 seconds
 
 
 **4. Test the dashboard**
-Let’s now launch the dashboard. Open another terminal and execute
+
+Let’s now launch the dashboard. 
+
+**Open another terminal and execute**
 
 ``cd /root/code/trader-dashboard``{{execute}}
 
